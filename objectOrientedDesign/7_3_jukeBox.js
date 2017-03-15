@@ -44,3 +44,8 @@ class Track {
         this.title = title;
     }
 }
+
+let track = new Track ('TDF', 'Bellevue');
+
+console.log(track);
+console.log(track instanceof Track);
